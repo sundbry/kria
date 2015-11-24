@@ -6,7 +6,7 @@
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [com.google.protobuf/protobuf-java "2.6.1"]
-                 [com.basho.riak.protobuf/riak-pb "2.1.0.7"]]
+                 [com.basho.riak.protobuf/riak-pb "2.0.0.16"]]
   :source-paths ["src/clojure"]
   :java-source-paths ["src/java"]
   :profiles {:dev
