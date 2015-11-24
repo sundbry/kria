@@ -60,7 +60,7 @@
     (if-let [x (:n-val m)]
       (.setNVal b x))
     (if-let [x (:type m)]
-      (.setType b (byte-string<-utf8-string x)))
+      (.setType b x))
     (.build b)))
 
 (defn PutReq->bytes
